@@ -6,9 +6,9 @@
 # Setuptools is a slightly nicer distribution utility that can create 'eggs'.
 from setuptools import setup, find_packages
 
-setup(name='azur650_serial_control',
+setup(name='azur650_serial',
     version='0.0.1',
-    description='Serial Control Protocol for Sony Televisions (and other devices)',
+    description='Serial control interface for Cambridge Audio Azur 650R 7.1 AVR',
     author='Kevin Williams',
     author_email='kevin@weblivion.com',
     url='http://www.weblivion.com/',
@@ -17,10 +17,6 @@ setup(name='azur650_serial_control',
     include_package_data=True,
     install_requires=['pyserial'],
     zip_safe=False,
-#    entry_points="""
-#        [console_scripts]
-#        test_connection = tests.test_connection:run_suite
-#    """,
 )
 
 
